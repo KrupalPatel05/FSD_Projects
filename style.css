@@ -1,0 +1,542 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Martian+Mono:wght@100..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Martian+Mono:wght@100..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: 100%;
+    height: 796px;
+    background-color: #e8631c;
+}
+
+nav {
+    width: 100%;
+    height: 103px;
+    background-color: #303030;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav a {
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Oswald";
+    text-decoration: none;
+    padding: 10px;
+    position: relative;
+}
+.search-icon i{
+    color: white;
+    font-size: large;
+}
+
+.hero {
+    background-image: url('img/pic1.png');
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero .intro {
+    padding-top: 15%;
+    padding-left: 8%;
+    align-items: center;
+}
+
+.intro h1 {
+    font-size: 100px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Oswald";
+}
+
+.intro p {
+    width: 45%;
+    height: 150px;
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    justify-content: center;
+}
+
+.intro .reg-btn {
+    width: 322px;
+    height: 65px;
+    border-radius: 4px;
+    background-color: #e8631c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reg-btn:hover {
+    background-color: #8d3c10;
+    transition: 0.5s;
+}
+
+.reg-btn-text {
+    font-size: 29px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Oswald";
+}
+
+
+/* Section 2  */
+
+.section-2 {
+    width: 100%;
+    height: 974px;
+    background-color: #e8631c;
+}
+
+.section-2 h1 {
+    font-size: 65px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Oswald";
+    text-align: center;
+    padding-top: 2%;
+}
+
+.section-2 p {
+    padding-top: 2%;
+    margin-top: 2%;
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+
+}
+
+.section-2 .main-cards {
+    padding-top: 5%;
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.section-2 .card1,
+.section-2 .card2,
+.section-2 .card3 {
+    width: 372px;
+    height: 100%;
+    background-color: #303030;
+}
+
+.section-2 .card1 h1 {
+    font-size: 37px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Oswald";
+    text-align: center;
+}
+
+.section-2 .card1 p {
+    width: 100%;
+    height: 119px;
+    font-size: 22px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+.section-2 .card2 h1 {
+    font-size: 37px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Oswald";
+    text-align: center;
+}
+
+.section-2 .card2 p {
+    width: 100%;
+    height: 119px;
+    font-size: 22px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+.section-2 .card3 h1 {
+    font-size: 37px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Oswald";
+    text-align: center;
+}
+
+.section-2 .card3 p {
+    width: 100%;
+    height: 119px;
+    font-size: 22px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+.section-4 {
+    width: 100%;
+    height: 984px;
+    background-color: #e8631c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-4 article {
+    width: 50%;
+    height: inherit;
+}
+
+.section-4 article img {
+    width: 100%;
+    height: 900px;
+}
+
+.section-5 article img {
+    width: 80%;
+    height: 900px;
+}
+
+.section-4 aside h1 {
+    font-size: 75px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Oswald";
+}
+
+.section-4 aside p {
+    width: 50%;
+    height: 210px;
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+
+.section-4 aside {
+    width: 50%;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.section-4 .read-btn {
+    width: 322px;
+    height: 70px;
+    border-radius: 4px;
+    background-color: #303030;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 200px;
+}
+
+.section-4 .read-btn-text {
+    font-size: 29px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Oswald";
+    text-align: center;
+}
+
+.section-5 {
+    width: 100%;
+    height: 984px;
+    background-color: #e8631c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-5 article {
+    width: 50%;
+    height: inherit;
+}
+
+.section-5 aside h1 {
+    font-size: 75px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Oswald";
+}
+
+.section-5 aside p {
+    width: 50%;
+    height: 210px;
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+
+.section-5 aside {
+    width: 50%;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.section-5 .read-btn {
+    width: 322px;
+    height: 65px;
+    border-radius: 4px;
+    background-color: #303030;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 100px;
+}
+
+.section-5 .read-btn-text {
+    font-size: 29px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Oswald";
+    text-align: center;
+}
+
+.section-6 {
+    width: 100%;
+    height: 974px;
+    background-color: #303030;
+    padding-top: 10%;
+}
+
+.section-6 h1 {
+    font-size: 65px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Oswald";
+    text-align: center;
+    padding-top: 2%;
+}
+
+.section-6 p {
+    padding-top: 2%;
+    margin-top: 2%;
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+.section-6 .cards {
+    padding-top: 5%;
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.section-6 .cards .card1,
+.section-6 .cards .card2,
+.section-6 .cards .card3 {
+    font-size: 42px;
+    width: 795px;
+    height: 210px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+
+.section-7 {
+    position: relative;
+    width: 100%;
+    height: 900px;
+    background: url('img/pic3.png');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.section-7 .shape {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 87, 34, 0.5);
+    z-index: 1;
+}
+
+.section-7 .owner-intro {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.section-7 .owner-intro p {
+    font-size: 50px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Nunito";
+    text-align: center;
+}
+
+.section-7 .owner-intro h2 {
+    margin-top: 10px;
+    font-size: 58px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Oswald";
+    align-items: center;
+}
+
+.section-8 {
+    width: 100%;
+    height: 597px;
+    background-color: #e8631c;
+}
+
+.section-8 .quote h1 {
+    font-size: 75px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Oswald";
+    text-align: center;
+    padding-top: 30px;
+}
+
+.section-8 .quote p {
+    width: 100%;
+    height: 210px;
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+    margin-top: 5%;
+}
+
+.section-8 .button {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.section-8 .textbox .email {
+    width: 549px;
+    height: 63px;
+    background-color: #ffffff;
+}
+
+.section-8 .email::placeholder {
+    opacity: 0.502;
+    font-size: 30px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Montserrat";
+    padding-left: 20px;
+}
+
+.section-8 .sub-button {
+    width: 222px;
+    height: 65px;
+    border-radius: 4px;
+    background-color: #303030;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-8 .sub-button .sub-text {
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Oswald";
+    text-align: center;
+}
+.icons i{
+    color: white;
+}
+
+footer {
+    width: 100%;
+    height: 100%;
+    background-color: #303030;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 5%;
+}
+.sub-1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 25%;
+}
+
+.sub-1 h1,
+.sub-2 h1,
+.sub-3 h1,
+.sub-4 h1 {
+    font-size: 33px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Oswald";
+}
+
+.sub-1 p {
+    width: 958px;
+    height: 244px;
+    padding-top: 5%;
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+
+.sub-2 li,
+.sub-3 li,
+.sub-4 li {
+    font-size: 25px;
+    line-height: 44px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    list-style: none;
+}
